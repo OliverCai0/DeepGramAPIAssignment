@@ -5,7 +5,7 @@ ruby "3.0.2"
 
 gem 'dotenv-rails'
 
-gem 'taglib-ruby'
+gem 'taglib-ruby', "~> 1.0"
 
 gem 'aws-sdk'
 
