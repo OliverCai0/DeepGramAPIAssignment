@@ -1,24 +1,4 @@
-# README
+# Deepgram Audio Assignment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Example POST
+curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@BabyElephantWalk60.wav" -F "name=BabyElephantWalk" https://polar-chamber-16030.herokuapp.com//audio_files
